@@ -9,8 +9,8 @@ body{
 
 div.image1{
   
-      background-image: url("futsal images/futsal1.jpg");
-      background-repeat:round;
+      background-image: url("futsal images/fre.png");
+      background-repeat:repeat;
 
          width:100%;
          height: 700px;
@@ -23,49 +23,46 @@ div.image1{
 }
 
 div.mainBox{
-  position: absolute;
+    position: absolute;
     height: 450px;
     width: 700px;
     background-repeat:round;
     margin: 60px 50px 0px 300px;
-    z-index: 3;
-    border:0px;
+    border:1px solid #808080 ;
+    box-shadow: 5px 10px 20px #888888;
+    background-color:#f2f2f2;
     border-radius: 5px;
     text-align: center;
 
 }
-div.image2{
-   background-image: url("futsal images/football.jpeg");     
-    background-repeat:round;
-    filter: blur(3px);
-  -webkit-filter: blur(3px);
-    height: 100%;
-    width: 100%;
-    z-index: 2;
-    position: absolute;
-/*       position:relative;*/
-    margin: 0px 0px;
-    padding: 0px;
+
+.colon{
+    display:inline;
+    font-size:300%;
+    padding-top:5px;
 }
-    
-    
-    
-}
-div.mainBox:nth-child(2) {
+div.mainBox:first-child {
 /*    border-bottom: 2px solid #00ffff;*/
     padding: 4px;
     margin: 0px;
 }
+.increase1{
+    font-size: 300%;
+}
+.increase2{
+    font-size: 150%;
+    text-decoration:underline;
+}
 .teamA{
     display:inline;
     width:300px;
-    height: 300px;
+    height: 250px;
     float: left;
     margin: 0px;
 }
 .teamB{
     display:inline;
-    height:300px;
+    height:250px;
     width:300px;
     float:right;
     margin: 0px;
